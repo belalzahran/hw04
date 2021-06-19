@@ -5,27 +5,22 @@ CMakeFiles/hw03.dir/Architect.cpp.o: ../Architect.cpp
 CMakeFiles/hw03.dir/Architect.cpp.o: ../Architect.h
 CMakeFiles/hw03.dir/Architect.cpp.o: ../Date.h
 CMakeFiles/hw03.dir/Architect.cpp.o: ../Employee.h
-CMakeFiles/hw03.dir/Architect.cpp.o: ../hw03.h
 
 CMakeFiles/hw03.dir/Date.cpp.o: ../Date.cpp
 CMakeFiles/hw03.dir/Date.cpp.o: ../Date.h
-CMakeFiles/hw03.dir/Date.cpp.o: ../hw03.h
 
 CMakeFiles/hw03.dir/Employee.cpp.o: ../Date.h
 CMakeFiles/hw03.dir/Employee.cpp.o: ../Employee.cpp
 CMakeFiles/hw03.dir/Employee.cpp.o: ../Employee.h
-CMakeFiles/hw03.dir/Employee.cpp.o: ../hw03.h
 
 CMakeFiles/hw03.dir/Programmer.cpp.o: ../Date.h
 CMakeFiles/hw03.dir/Programmer.cpp.o: ../Employee.h
 CMakeFiles/hw03.dir/Programmer.cpp.o: ../Programmer.cpp
 CMakeFiles/hw03.dir/Programmer.cpp.o: ../Programmer.h
-CMakeFiles/hw03.dir/Programmer.cpp.o: ../hw03.h
 
 CMakeFiles/hw03.dir/hw03.cpp.o: ../Architect.h
 CMakeFiles/hw03.dir/hw03.cpp.o: ../Date.h
 CMakeFiles/hw03.dir/hw03.cpp.o: ../Employee.h
 CMakeFiles/hw03.dir/hw03.cpp.o: ../Programmer.h
 CMakeFiles/hw03.dir/hw03.cpp.o: ../hw03.cpp
-CMakeFiles/hw03.dir/hw03.cpp.o: ../hw03.h
 

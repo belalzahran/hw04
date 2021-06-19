@@ -13,6 +13,5 @@ add_executable(hw03
         Employee.cpp
         Employee.h
         hw03.cpp
-        hw03.h
         Programmer.cpp
         Programmer.h)

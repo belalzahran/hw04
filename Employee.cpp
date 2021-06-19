@@ -1,31 +1,26 @@
 #include "Employee.h"
-#include "hw03.h"
 #include "Date.h"
 
-
+// Default Constructor
 Employee::Employee()
+: hireDate(0, 0, 0), name{" "}, id{0}, phoneNum{0}, age{0}, gender{' '}, jobTitle{" "}, salary{0}
 {
-	name     = " ";
-	id       = 0;
-	phoneNum = 0;
-	age      = 0;
-	gender   = ' ';
-	jobTitle = " ";
-	salary   = 0;
-	hireDate.SetDate(0,0,0);
 
 }
 
-Employee::Employee(string name, int id, int phoneNum, int age, char gender, string jobTitle, int salary, int month, int day, int year) : name(name), id(id), phoneNum(phoneNum), age(age), gender(gender), jobTitle(jobTitle), salary(salary)
+// Alternate Constructor
+Employee::Employee(string name, int id, int phoneNum, int age, char gender, string jobTitle, int salary, int month, int day, int year)
+: hireDate(month, day, year), name{name}, id{id}, phoneNum{phoneNum}, age{age}, gender{gender}, jobTitle{jobTitle}, salary{salary}
 {
-	hireDate.SetDate(month,day,year);
+
 }
 
+// Destructor
 Employee::~Employee()
-{
+= default;
 
-}
 
+// SETTER FUNCTIONS
 void Employee::SetName(string newName)
 {
     name = newName;
@@ -59,9 +54,12 @@ void Employee::SetHireDate(int month, int day, int year)
     hireDate.SetDate(month,day, year);
 }
 
+
+
+// Print function to print out employee's details
 void Employee::Print() const
 {
-	string salary1;
+	string salary1; // CALC & OUT- string to be concatenated w details
 	salary1 = "$" + to_string(salary);
 
 	cout << endl << endl;

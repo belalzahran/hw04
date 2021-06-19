@@ -1,50 +1,32 @@
 #include "Employee.h"
-#include "hw03.h"
 #include "Date.h"
 #include "Programmer.h"
 
+
+
+// Default Constructor
 Programmer::Programmer()
+: Employee(" ", 0, 0, 0, ' ', " ", 0, 0, 0, 0),
+  departNum{0},supervisor{" "}, salaryIncrease{0}, cPlusPlus{false}, java{false}
 {
-	name     = " ";
-	id       = 0;
-	phoneNum = 0;
-	age      = 0;
-	gender   = ' ';
-	jobTitle = " ";
-	salary   = 0;
-	hireDate.SetDate(0,0,0);
-	departNum = 0;
-	supervisor = " ";
-	salaryIncrease = 0.0;
-	cPlusPlus = false;
-	java = false;
 
 }
 
-Programmer::Programmer(string name, int id, int phoneNum, int age, char gender, string jobTitle, int salary, int month, int day, int year, int departNum, string supervisor, float salaryIncrease, bool cPlusPlus, bool java)
+// Alternate Constructor
+Programmer::Programmer(string name, int id, int phoneNum, int age, char gender, string jobTitle, int salary, int month,
+                       int day, int year, int departNum, string supervisor, float salaryIncrease, bool cPlusPlus, bool java)
+: Employee(name, id, phoneNum, age, gender, jobTitle, salary, month, day, year),
+  departNum{departNum},supervisor{supervisor}, salaryIncrease{salaryIncrease}, cPlusPlus{cPlusPlus}, java{java}
 {
-	this->name     = name;
-	this->id       = id;
-	this->phoneNum = phoneNum;
-	this->age      = age;
-	this->gender   = gender;
-	this->jobTitle = jobTitle;
-	this->salary   = salary;
-	hireDate.SetDate(month,day,year);
-	this->departNum = departNum;
-	this->supervisor = supervisor;
-	this->salaryIncrease = salaryIncrease;
-	this->cPlusPlus = cPlusPlus;
-	this->java = java;
+
 }
 
-
+// Destructor
 Programmer::~Programmer()
-{
-
-}
+= default;
 
 
+// SETTER FUNCTIONS
 
 void Programmer::SetDepartNum(int newDepartmentNum)
 {
@@ -67,17 +49,20 @@ void Programmer::SetJava(bool newJava)
 	java = newJava;
 }
 
-
+// Print function to print out programmers details
 void Programmer::Print() const
 {
-	string cPlusPlus1;
-	string java1;
+	string cPlusPlus1; // CALC & OUT- string depending on c++ knowledge
+	string java1;      // CALC & OUT - string depending on java knowledge
 
+	// set string to correct value
 	cPlusPlus1 = cPlusPlus? "Yes" : "No";
 	java1 = java? "Yes" : "No";
 
+	// call base class print function
 	Employee::Print();
 
+	// print programmer class details
 	cout << endl << endl << endl;
 	cout << "Name           Depart #     Supervisor's Name       Raise %   C++?  Java?\n";
 	cout << "-------------  ----------  -----------------       -------   ----  -----\n";

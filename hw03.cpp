@@ -1,5 +1,4 @@
 #include "Employee.h"
-#include "hw03.h"
 #include "Date.h"
 #include "Programmer.h"
 #include "Architect.h"
@@ -8,7 +7,7 @@ int main()
 {
 	cout << "EMPLOYEES:\n";
 
-	// empoyee non-default constructor
+	// employee non-default constructor
 
     Employee buddy("John", 1232, 94991074, 25, 'M', "Janitor", 5500000, 11,2,2002);
 
