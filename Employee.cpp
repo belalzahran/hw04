@@ -109,7 +109,7 @@ bool operator==(const Employee& emp1, const Employee& emp2)
  * POST-CONDITIONS
  * 15 years added to employee's age
  ********************************************************************/
-void operator++(Employee& emp)
+void operator+(Employee& emp)
 {
     emp.AddToge(15);
 }
@@ -152,9 +152,15 @@ istream& operator>>(istream& i, Employee& emp)
     i >> emp.age;
     cout << "Enter Employee's Phone#: ";
     i >> emp.phoneNum;
-
-
-
     return i;
-
 }
+
+ void operator++(Employee& emp, int x) // POST
+ {
+    emp.age = emp.age++;
+ }
+
+ void operator++(Employee& emp)// PRE
+ {
+    emp.age = ++emp.age;
+ }

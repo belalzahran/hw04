@@ -10,10 +10,13 @@ class Employee
 {
 
     friend bool operator==(const Employee& emp1, const Employee& emp2);
-    friend void operator++(Employee& emp);
+    friend void operator+(Employee& emp);
     friend ostream& operator<<(ostream& o, Employee& emp);
     friend istream& operator>>(istream& i, Employee& emp);
 
+    //EXTRA CREDIT PRE AND POST INCREMENT OVERLOADING
+    friend void operator++(Employee& emp, int x); // POST
+    friend void operator++(Employee& emp);  // PRE
 
 public:
 
