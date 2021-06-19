@@ -114,7 +114,17 @@ void operator++(Employee& emp)
     emp.AddToge(15);
 }
 
-
+/********************************************************************
+ * Overloaded operator<<
+ * ------------------------------------------------------------------
+ * This method will insert employee info into the output stream
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 1 existing employee objects
+ *
+ * POST-CONDITIONS
+ * <none>
+ ********************************************************************/
 ostream& operator<<(ostream& o, Employee& emp)
 {
     o << "The employee's name is " << emp.GetName() << ", they are " << emp.GetAge() <<
@@ -122,9 +132,18 @@ ostream& operator<<(ostream& o, Employee& emp)
     return o;
 }
 
-
-
-
+/********************************************************************
+ * Overloaded operator>>
+ * ------------------------------------------------------------------
+ * This method will extract info from the input buffer and
+ * put it in the employee object
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 1 existing employee objects
+ *
+ * POST-CONDITIONS
+ * changed dm
+ ********************************************************************/
 istream& operator>>(istream& i, Employee& emp)
 {
     cout << "\nEnter Employee Name: ";
