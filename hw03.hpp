@@ -1,5 +1,5 @@
-#ifndef HW03_H_
-#define HW03_H_
+#ifndef HW03_HPP_
+#define HW03_HPP_
 
 #include <iostream>
 #include <string>

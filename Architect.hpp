@@ -5,12 +5,12 @@
  *      Author: bz
  */
 
-#ifndef ARCHITECT_H_
-#define ARCHITECT_H_
+#ifndef ARCHITECT_HPP_
+#define ARCHITECT_HPP_
 
-#include "Employee.h"
-#include "hw03.h"
-#include "Date.h"
+#include "Employee.hpp"
+#include "hw03.hpp"
+#include "Date.hpp"
 
 
 

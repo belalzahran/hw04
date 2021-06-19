@@ -1,10 +1,10 @@
 
 
-#ifndef EMPLOYEE_H_
-#define EMPLOYEE_H_
+#ifndef EMPLOYEE_HPP_
+#define EMPLOYEE_HPP_
 
-#include "Date.h"
-#include "hw03.h"
+#include "Date.hpp"
+#include "hw03.hpp"
 
 
 class Employee

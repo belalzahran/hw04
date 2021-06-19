@@ -5,12 +5,12 @@
  *      Author: bz
  */
 
-#ifndef PROGRAMMER_H_
-#define PROGRAMMER_H_
+#ifndef PROGRAMMER_HPP_
+#define PROGRAMMER_HPP_
 
-#include "Employee.h"
-#include "hw03.h"
-#include "Date.h"
+#include "Employee.hpp"
+#include "hw03.hpp"
+#include "Date.hpp"
 
 
 class Programmer: public Employee

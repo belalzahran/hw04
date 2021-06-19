@@ -1,13 +1,11 @@
-#include "Employee.h"
-#include "hw03.h"
-#include "Date.h"
-#include "Programmer.h"
-#include "Architect.h"
+#include "Employee.hpp"
+#include "hw03.hpp"
+#include "Date.hpp"
+#include "Programmer.hpp"
+#include "Architect.hpp"
 
 int main()
 {
-
-
 	cout << "EMPLOYEES:\n";
 
 	// empoyee non-default constructor
