@@ -62,10 +62,10 @@ RM = /Users/bz/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bz/Desktop/VsCode/hw03
+CMAKE_SOURCE_DIR = /Users/bz/Desktop/HW/hw04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bz/Desktop/VsCode/hw03/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bz/Desktop/HW/hw04/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw03.dir/depend.make
@@ -78,68 +78,68 @@ include CMakeFiles/hw03.dir/flags.make
 
 CMakeFiles/hw03.dir/Architect.cpp.o: CMakeFiles/hw03.dir/flags.make
 CMakeFiles/hw03.dir/Architect.cpp.o: ../Architect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw03.dir/Architect.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Architect.cpp.o -c /Users/bz/Desktop/VsCode/hw03/Architect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw03.dir/Architect.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Architect.cpp.o -c /Users/bz/Desktop/HW/hw04/Architect.cpp
 
 CMakeFiles/hw03.dir/Architect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/Architect.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/VsCode/hw03/Architect.cpp > CMakeFiles/hw03.dir/Architect.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/HW/hw04/Architect.cpp > CMakeFiles/hw03.dir/Architect.cpp.i
 
 CMakeFiles/hw03.dir/Architect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/Architect.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/VsCode/hw03/Architect.cpp -o CMakeFiles/hw03.dir/Architect.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/HW/hw04/Architect.cpp -o CMakeFiles/hw03.dir/Architect.cpp.s
 
 CMakeFiles/hw03.dir/Date.cpp.o: CMakeFiles/hw03.dir/flags.make
 CMakeFiles/hw03.dir/Date.cpp.o: ../Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw03.dir/Date.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Date.cpp.o -c /Users/bz/Desktop/VsCode/hw03/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw03.dir/Date.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Date.cpp.o -c /Users/bz/Desktop/HW/hw04/Date.cpp
 
 CMakeFiles/hw03.dir/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/Date.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/VsCode/hw03/Date.cpp > CMakeFiles/hw03.dir/Date.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/HW/hw04/Date.cpp > CMakeFiles/hw03.dir/Date.cpp.i
 
 CMakeFiles/hw03.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/Date.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/VsCode/hw03/Date.cpp -o CMakeFiles/hw03.dir/Date.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/HW/hw04/Date.cpp -o CMakeFiles/hw03.dir/Date.cpp.s
 
 CMakeFiles/hw03.dir/Employee.cpp.o: CMakeFiles/hw03.dir/flags.make
 CMakeFiles/hw03.dir/Employee.cpp.o: ../Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw03.dir/Employee.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Employee.cpp.o -c /Users/bz/Desktop/VsCode/hw03/Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw03.dir/Employee.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Employee.cpp.o -c /Users/bz/Desktop/HW/hw04/Employee.cpp
 
 CMakeFiles/hw03.dir/Employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/Employee.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/VsCode/hw03/Employee.cpp > CMakeFiles/hw03.dir/Employee.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/HW/hw04/Employee.cpp > CMakeFiles/hw03.dir/Employee.cpp.i
 
 CMakeFiles/hw03.dir/Employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/Employee.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/VsCode/hw03/Employee.cpp -o CMakeFiles/hw03.dir/Employee.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/HW/hw04/Employee.cpp -o CMakeFiles/hw03.dir/Employee.cpp.s
 
 CMakeFiles/hw03.dir/hw03.cpp.o: CMakeFiles/hw03.dir/flags.make
 CMakeFiles/hw03.dir/hw03.cpp.o: ../hw03.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw03.dir/hw03.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/hw03.cpp.o -c /Users/bz/Desktop/VsCode/hw03/hw03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw03.dir/hw03.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/hw03.cpp.o -c /Users/bz/Desktop/HW/hw04/hw03.cpp
 
 CMakeFiles/hw03.dir/hw03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/hw03.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/VsCode/hw03/hw03.cpp > CMakeFiles/hw03.dir/hw03.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/HW/hw04/hw03.cpp > CMakeFiles/hw03.dir/hw03.cpp.i
 
 CMakeFiles/hw03.dir/hw03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/hw03.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/VsCode/hw03/hw03.cpp -o CMakeFiles/hw03.dir/hw03.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/HW/hw04/hw03.cpp -o CMakeFiles/hw03.dir/hw03.cpp.s
 
 CMakeFiles/hw03.dir/Programmer.cpp.o: CMakeFiles/hw03.dir/flags.make
 CMakeFiles/hw03.dir/Programmer.cpp.o: ../Programmer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw03.dir/Programmer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Programmer.cpp.o -c /Users/bz/Desktop/VsCode/hw03/Programmer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw03.dir/Programmer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw03.dir/Programmer.cpp.o -c /Users/bz/Desktop/HW/hw04/Programmer.cpp
 
 CMakeFiles/hw03.dir/Programmer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/Programmer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/VsCode/hw03/Programmer.cpp > CMakeFiles/hw03.dir/Programmer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bz/Desktop/HW/hw04/Programmer.cpp > CMakeFiles/hw03.dir/Programmer.cpp.i
 
 CMakeFiles/hw03.dir/Programmer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/Programmer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/VsCode/hw03/Programmer.cpp -o CMakeFiles/hw03.dir/Programmer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bz/Desktop/HW/hw04/Programmer.cpp -o CMakeFiles/hw03.dir/Programmer.cpp.s
 
 # Object files for target hw03
 hw03_OBJECTS = \
@@ -159,7 +159,7 @@ hw03: CMakeFiles/hw03.dir/hw03.cpp.o
 hw03: CMakeFiles/hw03.dir/Programmer.cpp.o
 hw03: CMakeFiles/hw03.dir/build.make
 hw03: CMakeFiles/hw03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hw03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hw03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +172,6 @@ CMakeFiles/hw03.dir/clean:
 .PHONY : CMakeFiles/hw03.dir/clean
 
 CMakeFiles/hw03.dir/depend:
-	cd /Users/bz/Desktop/VsCode/hw03/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bz/Desktop/VsCode/hw03 /Users/bz/Desktop/VsCode/hw03 /Users/bz/Desktop/VsCode/hw03/cmake-build-debug /Users/bz/Desktop/VsCode/hw03/cmake-build-debug /Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bz/Desktop/HW/hw04/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bz/Desktop/HW/hw04 /Users/bz/Desktop/HW/hw04 /Users/bz/Desktop/HW/hw04/cmake-build-debug /Users/bz/Desktop/HW/hw04/cmake-build-debug /Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw03.dir/depend
 

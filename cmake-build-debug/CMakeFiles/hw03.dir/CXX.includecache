@@ -6,21 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/bz/Desktop/VsCode/hw03/Architect.cpp
+/Users/bz/Desktop/HW/hw04/Architect.h
 Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
+/Users/bz/Desktop/HW/hw04/Employee.h
 Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
-Architect.h
-/Users/bz/Desktop/VsCode/hw03/Architect.h
+/Users/bz/Desktop/HW/hw04/Date.h
 
-/Users/bz/Desktop/VsCode/hw03/Architect.h
-Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
-Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
-
-/Users/bz/Desktop/VsCode/hw03/Date.h
+/Users/bz/Desktop/HW/hw04/Date.h
 iostream
 -
 string
@@ -28,37 +20,23 @@ string
 iomanip
 -
 
-/Users/bz/Desktop/VsCode/hw03/Employee.cpp
-Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
+/Users/bz/Desktop/HW/hw04/Employee.h
 Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
+/Users/bz/Desktop/HW/hw04/Date.h
 
-/Users/bz/Desktop/VsCode/hw03/Employee.h
-Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
-
-/Users/bz/Desktop/VsCode/hw03/Programmer.cpp
+/Users/bz/Desktop/HW/hw04/Programmer.h
 Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
+/Users/bz/Desktop/HW/hw04/Employee.h
 Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
+/Users/bz/Desktop/HW/hw04/Date.h
+
+/Users/bz/Desktop/HW/hw04/hw03.cpp
+Employee.h
+/Users/bz/Desktop/HW/hw04/Employee.h
+Date.h
+/Users/bz/Desktop/HW/hw04/Date.h
 Programmer.h
-/Users/bz/Desktop/VsCode/hw03/Programmer.h
-
-/Users/bz/Desktop/VsCode/hw03/Programmer.h
-Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
-Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
-
-/Users/bz/Desktop/VsCode/hw03/hw03.cpp
-Employee.h
-/Users/bz/Desktop/VsCode/hw03/Employee.h
-Date.h
-/Users/bz/Desktop/VsCode/hw03/Date.h
-Programmer.h
-/Users/bz/Desktop/VsCode/hw03/Programmer.h
+/Users/bz/Desktop/HW/hw04/Programmer.h
 Architect.h
-/Users/bz/Desktop/VsCode/hw03/Architect.h
+/Users/bz/Desktop/HW/hw04/Architect.h
 

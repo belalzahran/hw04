@@ -73,9 +73,23 @@ void Programmer::Print() const
 
 }
 
+
+
+/********************************************************************
+ * bool compPhoneNum
+ * ------------------------------------------------------------------
+ * This method will compare the phone numbers of an employee to
+ * a programmer
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 1 existing employee object and 1 programmer object
+ *
+ * POST-CONDITIONS
+ * <none>
+ ********************************************************************/
 bool compPhoneNum(const Employee& anEmp, const Programmer& aProg)
 {
-    bool same;
-    same == anEmp.GetPhoneNumber() == aProg.GetPhoneNumber();
+    bool same = false;
+    same = anEmp.GetPhoneNumber() == aProg.GetPhoneNumber();
     return same;
 }

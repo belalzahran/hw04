@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bz/Desktop/VsCode/hw03/Architect.cpp" "/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/Architect.cpp.o"
-  "/Users/bz/Desktop/VsCode/hw03/Date.cpp" "/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/Date.cpp.o"
-  "/Users/bz/Desktop/VsCode/hw03/Employee.cpp" "/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/Employee.cpp.o"
-  "/Users/bz/Desktop/VsCode/hw03/Programmer.cpp" "/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/Programmer.cpp.o"
-  "/Users/bz/Desktop/VsCode/hw03/hw03.cpp" "/Users/bz/Desktop/VsCode/hw03/cmake-build-debug/CMakeFiles/hw03.dir/hw03.cpp.o"
+  "/Users/bz/Desktop/HW/hw04/Architect.cpp" "/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/Architect.cpp.o"
+  "/Users/bz/Desktop/HW/hw04/Date.cpp" "/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/Date.cpp.o"
+  "/Users/bz/Desktop/HW/hw04/Employee.cpp" "/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/Employee.cpp.o"
+  "/Users/bz/Desktop/HW/hw04/Programmer.cpp" "/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/Programmer.cpp.o"
+  "/Users/bz/Desktop/HW/hw04/hw03.cpp" "/Users/bz/Desktop/HW/hw04/cmake-build-debug/CMakeFiles/hw03.dir/hw03.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

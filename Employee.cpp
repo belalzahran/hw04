@@ -73,10 +73,20 @@ void Employee::Print() const
 
 }
 
-
+/********************************************************************
+ * Overloaded operator==
+ * ------------------------------------------------------------------
+ * This method will compare the phone numbers of two employees
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 2 existing employee objects
+ *
+ * POST-CONDITIONS
+ * <none>
+ ********************************************************************/
 bool operator==(const Employee& emp1, const Employee& emp2)
 {
     bool same;
-    same == emp1.GetPhoneNumber() == emp2.GetPhoneNumber();
+    same = emp1.GetPhoneNumber() == emp2.GetPhoneNumber();
     return same;
 }
