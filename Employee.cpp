@@ -139,18 +139,18 @@ ostream& operator<<(ostream& o, Employee& emp)
  * put it in the employee object
  * ------------------------------------------------------------------
  * PRE-CONDITIONS
- * 1 existing employee objects
+ * 1 existing employee object
  *
  * POST-CONDITIONS
  * changed dm
  ********************************************************************/
 istream& operator>>(istream& i, Employee& emp)
 {
-    cout << "\nEnter Employee Name: ";
+    cout << "Enter Employee Name: ";
     getline(cin,emp.name);
-    cout << "\nEnter Employee Age: ";
+    cout << "Enter Employee Age: ";
     i >> emp.age;
-    cout << "\nEnter Employee's Phone#: ";
+    cout << "Enter Employee's Phone#: ";
     i >> emp.phoneNum;
 
 

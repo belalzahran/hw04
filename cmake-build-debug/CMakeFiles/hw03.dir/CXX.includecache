@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/bz/Desktop/HW/hw04/Architect.h
-Employee.h
-/Users/bz/Desktop/HW/hw04/Employee.h
-Date.h
-/Users/bz/Desktop/HW/hw04/Date.h
-
 /Users/bz/Desktop/HW/hw04/Date.h
 iostream
 -
@@ -29,20 +23,4 @@ Date.h
 /Users/bz/Desktop/HW/hw04/Employee.h
 Date.h
 /Users/bz/Desktop/HW/hw04/Date.h
-
-/Users/bz/Desktop/HW/hw04/Programmer.h
-Employee.h
-/Users/bz/Desktop/HW/hw04/Employee.h
-Date.h
-/Users/bz/Desktop/HW/hw04/Date.h
-
-/Users/bz/Desktop/HW/hw04/hw03.cpp
-Employee.h
-/Users/bz/Desktop/HW/hw04/Employee.h
-Date.h
-/Users/bz/Desktop/HW/hw04/Date.h
-Programmer.h
-/Users/bz/Desktop/HW/hw04/Programmer.h
-Architect.h
-/Users/bz/Desktop/HW/hw04/Architect.h
 
