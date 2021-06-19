@@ -8,6 +8,10 @@
 
 class Employee
 {
+
+    friend bool operator==(const Employee& emp1, const Employee& emp2);
+
+
 public:
 
 /********************************************************************
@@ -178,6 +182,19 @@ public:
  * <none>
  ********************************************************************/
     string GetName() const{return name;};
+
+/********************************************************************
+ * Method GetPhoneNumber: class Employee
+ * ------------------------------------------------------------------
+ * This method will return the phone number of an employee
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * existing employee object
+ *
+ * POST-CONDITIONS
+ * <none>
+ ********************************************************************/
+    int GetPhoneNumber() const{return phoneNum;};
 protected:
     string   name;
     int      id;

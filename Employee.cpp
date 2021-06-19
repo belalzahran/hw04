@@ -72,3 +72,11 @@ void Employee::Print() const
 
 
 }
+
+
+bool operator==(const Employee& emp1, const Employee& emp2)
+{
+    bool same;
+    same == emp1.GetPhoneNumber() == emp2.GetPhoneNumber();
+    return same;
+}

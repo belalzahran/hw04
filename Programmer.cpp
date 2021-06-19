@@ -72,3 +72,10 @@ void Programmer::Print() const
 
 
 }
+
+bool compPhoneNum(const Employee& anEmp, const Programmer& aProg)
+{
+    bool same;
+    same == anEmp.GetPhoneNumber() == aProg.GetPhoneNumber();
+    return same;
+}

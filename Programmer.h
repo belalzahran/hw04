@@ -17,6 +17,8 @@ class Programmer: public Employee
 
 public:
 
+    friend bool compPhoneNum(const Employee& anEmp, const Programmer& aProg);
+
 /********************************************************************
  * Default Constructor Programmer: class Programmer
  * ------------------------------------------------------------------
