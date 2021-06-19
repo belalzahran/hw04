@@ -10,6 +10,9 @@ class Employee
 {
 
     friend bool operator==(const Employee& emp1, const Employee& emp2);
+    friend void operator++(Employee& emp);
+    friend ostream& operator<<(ostream& o, Employee& emp);
+    friend istream& operator>>(istream& i, Employee& emp);
 
 
 public:
@@ -158,6 +161,19 @@ public:
     void SetHireDate(int month, int day, int year);
 
 /********************************************************************
+ * Method AddToAge: class Employee
+ * ------------------------------------------------------------------
+ * This method will add to the current age of an employee
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * existing employee object
+ *
+ * POST-CONDITIONS
+ * changed age
+ ********************************************************************/
+    void AddToge(int num);
+
+/********************************************************************
  * Method Print: class Employee
  * ------------------------------------------------------------------
  * This method will print out the employee details
@@ -195,6 +211,18 @@ public:
  * <none>
  ********************************************************************/
     int GetPhoneNumber() const{return phoneNum;};
+    /********************************************************************
+ * Method GetAge: class Employee
+ * ------------------------------------------------------------------
+ * This method will return the Age of an employee
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * existing employee object
+ *
+ * POST-CONDITIONS
+ * <none>
+ ********************************************************************/
+    int GetAge() const{return age;};
 protected:
     string   name;
     int      id;

@@ -55,6 +55,13 @@ void Employee::SetHireDate(int month, int day, int year)
 }
 
 
+// function to add years to age
+void Employee::AddToge(int num)
+{
+    age += num;
+}
+
+
 
 // Print function to print out employee's details
 void Employee::Print() const
@@ -89,4 +96,46 @@ bool operator==(const Employee& emp1, const Employee& emp2)
     bool same;
     same = emp1.GetPhoneNumber() == emp2.GetPhoneNumber();
     return same;
+}
+
+/********************************************************************
+ * Overloaded operator+
+ * ------------------------------------------------------------------
+ * This method will add 15 years to an employee's age
+ * ------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 1 existing employee objects
+ *
+ * POST-CONDITIONS
+ * 15 years added to employee's age
+ ********************************************************************/
+void operator++(Employee& emp)
+{
+    emp.AddToge(15);
+}
+
+
+ostream& operator<<(ostream& o, Employee& emp)
+{
+    o << "The employee's name is " << emp.GetName() << ", they are " << emp.GetAge() <<
+    " years old, and their phone number is " << emp.GetPhoneNumber();
+    return o;
+}
+
+
+
+
+istream& operator>>(istream& i, Employee& emp)
+{
+    cout << "\nEnter Employee Name: ";
+    getline(cin,emp.name);
+    cout << "\nEnter Employee Age: ";
+    i >> emp.age;
+    cout << "\nEnter Employee's Phone#: ";
+    i >> emp.phoneNum;
+
+
+
+    return i;
+
 }
