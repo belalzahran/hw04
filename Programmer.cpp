@@ -1,7 +1,7 @@
-#include "Employee.hpp"
-#include "hw03.hpp"
-#include "Date.hpp"
-#include "Programmer.hpp"
+#include "Employee.h"
+#include "hw03.h"
+#include "Date.h"
+#include "Programmer.h"
 
 Programmer::Programmer()
 {

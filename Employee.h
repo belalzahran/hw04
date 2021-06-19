@@ -3,8 +3,8 @@
 #ifndef EMPLOYEE_HPP_
 #define EMPLOYEE_HPP_
 
-#include "Date.hpp"
-#include "hw03.hpp"
+#include "Date.h"
+#include "hw03.h"
 
 
 class Employee

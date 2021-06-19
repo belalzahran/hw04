@@ -1,7 +1,7 @@
 #ifndef DATE_HPP_
 #define DATE_HPP_
 
-#include "hw03.hpp"
+#include "hw03.h"
 
 class Date
 {

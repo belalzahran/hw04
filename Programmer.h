@@ -8,9 +8,9 @@
 #ifndef PROGRAMMER_HPP_
 #define PROGRAMMER_HPP_
 
-#include "Employee.hpp"
-#include "hw03.hpp"
-#include "Date.hpp"
+#include "Employee.h"
+#include "hw03.h"
+#include "Date.h"
 
 
 class Programmer: public Employee
